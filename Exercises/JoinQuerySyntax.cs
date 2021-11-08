@@ -55,7 +55,6 @@ namespace Exercises
                     }
                 }
 
-                string studentSubject = null;
                 foreach (var subjectId in student.SubjectsIds)
                 {
                     foreach (var subject in subjects)
