@@ -9,7 +9,7 @@ namespace LinqTutorial
         {
             //METHOD SYNTAX
 
-            Any.Run();
+            //Any.Run();
             //All.Run();
             //Count.Run();
             //Contains.Run();

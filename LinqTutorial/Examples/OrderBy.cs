@@ -15,7 +15,7 @@ namespace LinqTutorial
         //System.Linq.Enumerable.Reverse
         public static void Run()
         {
-            //Order by creates a copy of the collection,
+            //OrderBy creates a copy of the collection,
             //which is ordered by the given criteria
             var petsOrderedByName = Data.Pets.OrderBy(pet => pet.Name);
             Printer.Print(petsOrderedByName, nameof(petsOrderedByName));
