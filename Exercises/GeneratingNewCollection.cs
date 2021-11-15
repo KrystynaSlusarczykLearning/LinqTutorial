@@ -7,6 +7,24 @@ namespace Exercises
     public static class GeneratingNewCollection
     {
         //Coding Exercise 1
+        /*
+         Implement the NewYearsEvesSince method, which given an initialYear and 
+        yearsCount parameters, will build a dictionary with the key being the year, 
+        and the value being the day of the week (as string) of the New Year's Eve. 
+        Please assume the New Year's Eve is on the 31st of December 
+        (according to the Gregorian calendar).
+
+        For example, for initialYear 1900 and yearsCount 5, 
+        the result shall be a dictionary with the following keys and values:        
+            *[1900] = "Monday" ,        
+            *[1901] = "Tuesday",         
+            *[1902] = "Wednesday",        
+            *[1903] = "Thursday",         
+            *[1904] = "Saturday"
+        
+        As you can see this dictionary contains 5 elements because the yearsCount
+        parameter was set to 5.
+         */
         public static Dictionary<int, string> NewYearsEvesSince(
             int initialYear, int yearsCount)
         {
@@ -15,6 +33,22 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        /*
+        Implement the BuildTree method, which given a number of levels, 
+        will return a string representation of a tree. For example, for 5 levels 
+        the result should be a string like this:
+        "*
+        **
+        ***
+        ****
+        *****"
+
+        This tree is built of 5 levels, each consisting of '*' characters and ending 
+        with the "\n" newline symbol. This result is equivalent this string: 
+        
+        "*\n**\n***\n****\n*****"
+
+         */
         public static string BuildTree(int levels)
         {
             //TODO your code goes here

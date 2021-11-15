@@ -7,6 +7,16 @@ namespace Exercises
     public static class MinMax
     {
         //Coding Exercise 1
+        /*
+         Using LINQ, implement the LengthOfTheShortestWord method, 
+        which will find the length of the shortest word in the words collection. 
+        The returned type should be nullable int. 
+        If the collection is empty, the result should be null.
+        For example:
+            *for words {"aaa", "bb", "c", "dddd"} the result should be 1, 
+                because word "c" is the shortest word, and it has a length of 1
+            *for an empty collection of words, the result shall be null       
+         */
         public static int? LengthOfTheShortestWord(IEnumerable<string> words)
         {
             //TODO your code goes here
@@ -14,6 +24,18 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        /*
+         Using LINQ, implement the CountOfLargestNumbers method, 
+         which will check how many numbers in the collection are equal to 
+         the largest number in this collection. 
+         For an empty collection, the result should be 0.
+         For example:
+            *for {3,2,2,4,4,0} the result will be 2. The largest number in the collection
+               is four, and there are two fours in this collection
+            *for {3,2,2,4,0} the result will be 1. The largest number in the collection 
+               is four, and there is a single four in this collection
+            *for {} the result will be 0
+         */
         public static int CountOfLargestNumbers(IEnumerable<int> numbers)
         {
             //TODO your code goes here

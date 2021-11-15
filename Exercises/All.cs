@@ -7,6 +7,8 @@ namespace Exercises
     public static class All
     {
         //Coding Exercise 1
+        //Use LINQ to implement the AreAllNumbersDivisibleBy10 method,
+        //which checks if all numbers in the collection are divisible by 10.
         public static bool AreAllNumbersDivisibleBy10(int[] numbers)
         {
             //TODO your code goes here
@@ -14,6 +16,8 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        //Using LINQ, implement the AreAllPetsOfTheSameType method that checks
+        //if all Pets in the collection are of the same PetType.
         public static bool AreAllPetsOfTheSameType(IEnumerable<Pet> pets)
         {
             //TODO your code goes here

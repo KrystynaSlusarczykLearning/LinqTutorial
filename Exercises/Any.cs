@@ -7,6 +7,8 @@ namespace Exercises
     public class Any
     {
         //Coding Exercise 1
+        //Using LINQ, implement the IsAnyNumberNegative method that checks
+        //if any number in the collection is smaller than 0.
         public static bool IsAnyNumberNegative(IEnumerable<int> numbers)
         {
             //TODO you code goes here
@@ -14,6 +16,8 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        //Using LINQ, implement the AreThereAnyBigCats method, which will check
+        //if in the collection of Pets there is a cat that weighs over 2 kilos.
         public static bool AreThereAnyBigCats(IEnumerable<Pet> pets)
         {
             //TODO you code goes here

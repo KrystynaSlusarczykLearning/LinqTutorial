@@ -7,6 +7,19 @@ namespace Exercises
     public static class IntersectExcept
     {
         //Coding Exercise 1
+        /*
+         Implement the CountCommonWords method, which given two collections of strings 
+        will return the count of the words that belong to both of those collections. 
+        Please note that the casing of the words does not matter.
+
+        For example, for the following collections:
+            *{"aaa", "BBB", "CCC"}
+            *{"aaa", "ccc", "DDD"}
+
+        The result shall be 2 because there are two words that occur in both collections:
+        "aaa" and "ccc". As we said, it doesn't matter if "ccc" is lower case in one 
+        collection and upper case in the other.
+         */
         public static int CountCommonWords(
             IEnumerable<string> words1,
             IEnumerable<string> words2)
@@ -16,6 +29,18 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        /*
+         Implement the GetExclusiveNumbers method, which given two collections of numbers,
+        will return an ordered collection consisting of those numbers, that only 
+        occurred in one of those collections.
+
+        For example, for the following input:
+            *{1,2,3,4,5,6}
+            *{9,8,7,6,5}
+        
+        The result shall be {1,2,3,4,7,8,9} because those are the numbers that are 
+        exclusive for one collection only.
+         */
         public static IEnumerable<int> GetExclusiveNumbers(
             IEnumerable<int> numbers1,
             IEnumerable<int> numbers2)

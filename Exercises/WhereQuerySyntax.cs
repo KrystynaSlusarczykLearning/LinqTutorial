@@ -7,6 +7,20 @@ namespace Exercises
     public static class WhereQuerySyntax
     {
         //Coding Exercise 1
+        /*
+        Using the query syntax, implement the GetBornAfter method, which given a year
+        and a collection of people will return only the people born after the given year.
+
+        For example, for the year 1950 and the following people:
+            *Geraldine Smith born in 1920
+            *John Smith born in 1950
+            *Monica Smith born in 1954
+            *Jake Smith born in 1982
+        
+        ...the expected result is:
+            *Monica Smith born in 1954
+            *Jake Smith born in 1982
+         */
         public static IEnumerable<Person> GetBornAfter(
            int year, IEnumerable<Person> people)
         {
@@ -15,6 +29,22 @@ namespace Exercises
         }
 
         //Coding Exercise 2
+        /*
+        Using LINQ's query syntax implement the GetStudentsWhoNeedToStudyMore method, 
+        which given a collection of students will return those students, 
+        who don't have any marks, or the average of their marks is below 3.
+
+        For example, for the following students:
+            *Stacey Brown with no marks
+            *Jake Smith with marks {3, 5, 5}
+            *Chris Miller with marks {2, 3}
+            *Anne Evans with marks {3, 3, 1}
+        
+        ...the result shall be:
+            *Stacey Brown with no marks
+            *Chris Miller with marks {2, 3}
+            *Anne Evans with marks {3, 3, 1}
+         */
         public static IEnumerable<Student>
            GetStudentsWhoNeedToStudyMore(
                IEnumerable<Student> students)
