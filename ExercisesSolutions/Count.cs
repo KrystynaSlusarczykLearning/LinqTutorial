@@ -12,9 +12,10 @@ namespace ExercisesSolutions
         }
 
         //Coding Exercise 2
-        public static bool AreThereFewerOddThanEvenNumbers(IEnumerable<int> numbers)
+        public static bool AreThereFewerOddThanEvenNumbers(
+            IEnumerable<int> numbers)
         {
-            return numbers.Count(number => number % 2 == 0) >=
+            return numbers.Count(number => number % 2 == 0) >
                 numbers.Count(number => number % 2 != 0);
         }
 

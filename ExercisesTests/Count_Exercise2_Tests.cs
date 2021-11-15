@@ -32,8 +32,8 @@ namespace ExercisesTests
             var numbers = new[] { 2, 3, 4, 5 };
             var numbersAsString = string.Join(", ", numbers);
             var result = Count.AreThereFewerOddThanEvenNumbers(numbers);
-            Assert.True(result, $"The test failed for numbers {numbersAsString}. " +
-                $"The method result was False, but it should be True");
+            Assert.False(result, $"The test failed for numbers {numbersAsString}. " +
+                $"The method result was True, but it should be False");
         }
     }
 }
