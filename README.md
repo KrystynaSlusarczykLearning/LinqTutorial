@@ -4,7 +4,7 @@ Hello!
 
 My name is Krystyna and welcome to my GitHub.
 
-This repository is part of my  "LINQ Tutorial: Master the Key C# Library" course, which you can find under this link: 
+This repository is part of my  "LINQ Tutorial: Master the Key C# Library" course, which you can find under this link: https://www.udemy.com/course/linq-tutorial-master-the-key-csharp-library/?referralCode=384B340D233F12F6A498
 
 ## FAQ:
 
