@@ -11,7 +11,7 @@ namespace Exercises
         which are numbers. Implement the CalculateAverageMark method, 
         which will calculate the average mark for a student, 
         but it will ignore the lowest and the highest mark. 
-        Let's assume a student with no marks has an average mark of 0.
+        Let's assume a student with less than 3 marks has an average mark of 0.
 
         For example:
             *John has the following marks: 3,4,6,6,2,5. 
