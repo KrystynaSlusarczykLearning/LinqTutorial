@@ -25,7 +25,7 @@ namespace ExercisesSolutions
         public static bool AreAllPetsOfTheSameType_AlternativeImplementation(
             IEnumerable<Pet> pets)
         {
-            var allPetTypes = Enum.GetValues(typeof(Pet)).Cast<PetType>();
+            var allPetTypes = Enum.GetValues(typeof(PetType)).Cast<PetType>();
             return allPetTypes.Any(petType => pets.All(pet => pet.PetType == petType));
         }
 
