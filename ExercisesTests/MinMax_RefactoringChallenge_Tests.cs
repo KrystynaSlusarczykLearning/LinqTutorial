@@ -29,6 +29,7 @@ namespace ExercisesTests
              new Person(1, "John", new [] {
                    Pets.ElementAt(0),
                    Pets.ElementAt(1),
+                   Pets.ElementAt(2)
                }),
                new Person(2, "Jack", new [] {
                    Pets.ElementAt(2)
@@ -64,6 +65,7 @@ namespace ExercisesTests
              new Person(1, "John", new [] {
                    Pets.ElementAt(0),
                    Pets.ElementAt(1),
+                   Pets.ElementAt(2)
                }),
                new Person(2, "Jack", new [] {
                    Pets.ElementAt(2)

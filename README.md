@@ -1,3 +1,4 @@
+# IMPORTANT: This is the version of the repository targeting .NET 5. For .NET 6, please use https://github.com/KrystynaSlusarczykLearning/LinqTutorialNet6 (recommended)
 # LinqTutorial
 
 Hello! 

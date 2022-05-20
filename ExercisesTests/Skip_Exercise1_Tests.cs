@@ -28,5 +28,16 @@ namespace ExercisesTests
             var result = Skip.CalculateAverageMark(student);
             Assert.AreEqual(0, result, $"For student with no marks result shall be 0");
         }
+
+        [Test]
+        public void CalculateAverageMark_LessThan3Marks()
+        {
+            var student = new Student
+            {
+                Marks = new int[] { 2, 5 }
+            };
+            var result = Skip.CalculateAverageMark(student);
+            Assert.AreEqual(0, result, $"For student with less than 3 marks result shall be 0");
+        }
     }
 }
